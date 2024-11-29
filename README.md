@@ -1,46 +1,41 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
 
-These are common Git commands used in various situations:
+# Swag Labs
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+Automate the end to end flow of purchasing any product
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## System Requiremnts
+### Prerequisites
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+* Ensure that Node.js, a terminal (e.g., Command Prompt, iTerm, or a similar tool) and prefred IDE- Visual Studio Code are installed on your computer.
+* Install Cypress globally or as part of the project dependencies
+For downloading cypress through command line use 
+`npm install cypress --save-dev`
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+### Download or Clone the Repository
+Download the Code:
+* Navigate to the repository page.
+* Click the Code button.
+* Select Download ZIP to download the project as a ZIP file.
+Clone the Repository:
+* Click the Code button.
+* Copy the URL under the Clone using HTTPS section.
+* Open your terminal and run the following command (replace 'repository URL' with the copied URL):
+`git clone 'repository URL'`
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
-# Swaglabs
+
+
+
+## Installation
+
+- Navigate to the project folder in your terminal:
+`cd <project-folder>`
+- Install the project dependencies by running:
+`npm install`
+## Cypress Run 
+Open Cypress using the following command:
+
+`npx cypress open`
+
+Task Video
+(https://www.awesomescreenshot.com/video/34145392?key=69a5e8d2848393891baa2c30aa83bc42)
